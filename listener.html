@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <title>이벤트리스너</title>
+    <meta charset="utf-8">
+    <script src="lib.js">
+        
+        // function over(obj){obj.src="짬봉s.jpg";}
+        // function out(obj){obj.src="짜장면s.jpg";}
+    </script>
+</html>
+<body>
+    <h1>마우스를 올려보세요!</h1>
+    <h2>html 태그의 이벤트 리스너 속성에 자바스크립트 코드 작성 예</h2>
+    <hr>
+    <img src="짜장면s.jpg" alt="짜장면" onmouseover="this.src='짬봉s.jpg'" alt="짬봉"
+        onmouseout="this.src='짜장면s.jpg'">
+    <h2>script테그에 자바스크립트 코드 작성 예</h2>
+    <hr>
+    <img src="짜장면s.jpg" alt="짜장" onmouseover="over(this)" onmouseout="out(this)">   
+    <h2>외부 자바스크립트 파일을 불러오기</h2>
+ 
+</body>
